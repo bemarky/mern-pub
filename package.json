@@ -1,7 +1,7 @@
 {
   "name": "mern",
   "version": "1.0.0",
-  "description": "Goalsetter app for YT tutorial",
+  "description": "goalsetter app for landing page",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -9,13 +9,14 @@
   },
   "author": "Mark Paliza",
   "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
-    "mongoose": "^6.6.3"
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
