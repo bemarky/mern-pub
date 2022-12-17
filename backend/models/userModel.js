@@ -1,4 +1,3 @@
-// JWT Authentication Codes
 const mongoose = require('mongoose')
 
 const userSchema = mongoose.Schema(
